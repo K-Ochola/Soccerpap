@@ -1,2 +1,53 @@
-body{background-color: yellow;
+body{
+    background-color: rgba(255,165,0,0.7);
+}
+body{
+    margin: 10px;
+}
+html, body{
+ height: 80%;
+}
+img {
+ align-self: center;
+    transform: translate(50%,0%);
+}
+div.container {
+ position : relative;
+ display: table;
+ width: auto; 
+ height: auto;
+ background: #ccc;
+ margin-left:auto;
+ margin-right:auto;
+}
+table {
+ border-collapse: separate;
+ border-spacing: 10px;
+}
+table{
+    font-size:19px;
+}
+th{
+    font-size:20px;
+}
+ul{
+    list-style-type:none;
+}
+caption{
+    font-size:30px;
+}
+section.movie-info{
+    margin:10px solid red;
+    padding:10px solid brown;
+    border:20px solid pink;
+}
+ul.contact-list{
+    margin:30px;
+    padding:10px;
+    border:30px solid red;
+}
+.standings-table{
+    margin:30px;
+    padding:10px;
+    border:30px ridge purple;
 }
