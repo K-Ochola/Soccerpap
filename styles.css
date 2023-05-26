@@ -1,15 +1,11 @@
 body{
-    background-color: rgba(255,165,0,0.7);
+    background-color: rgba(255,165,0,0.9);
 }
 body{
     margin: 10px;
 }
 html, body{
  height: 80%;
-}
-img {
- align-self: center;
-    transform: translate(50%,0%);
 }
 div.container {
  position : relative;
@@ -37,17 +33,26 @@ caption{
     font-size:30px;
 }
 section.movie-info{
-    margin:10px solid red;
-    padding:10px solid brown;
-    border:20px solid pink;
+    margin:10px;/*to separate */
+    padding:10px;/*to separate the text from the border by 10px*/
+    border:20px solid beige;/**/
 }
 ul.contact-list{
-    margin:30px;
-    padding:10px;
-    border:30px solid red;
+    margin:30px;/**/
+    padding:10px;/**/
+    border:30px solid red;/**/
 }
 .standings-table{
-    margin:30px;
-    padding:10px;
-    border:30px ridge purple;
+    margin:30px;/**/
+    padding:10px;/**/
+    border:30px ridge purple;/**/
+}
+.top_four{
+    border-left:6px solid green;
+}
+.europa{
+    border-left:6px solid fuchsia;
+}
+.relegation{
+    border-left:6px solid teal;
 }
