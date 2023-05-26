@@ -53,6 +53,12 @@ ul.contact-list{
 .europa{
     border-left:6px solid fuchsia;
 }
+.conference_league{
+    border-left:6px solid navy;
+}
 .relegation{
     border-left:6px solid teal;
+}
+td{
+    border-bottom:2px solid olive;
 }
