@@ -1,64 +1,69 @@
 body{
-    background-color: rgba(255,165,0,0.9);
+    background-color: rgba(255,165,0,0.9);/*to set the background color to orange with opacity of 0.9*/
+    margin-top:0px;/*to remove default margin from the header*/
+}
+header{
+    background-color:yellow;/*to make the background-coler of the header to yellow*/
 }
 body{
-    margin: 10px;
-}
-html, body{
- height: 80%;
+    margin:0px;/*to create a space of 0px from the edge of the screen to the body border*/
 }
 div.container {
- position : relative;
- display: table;
- width: auto; 
- height: auto;
- background: #ccc;
- margin-left:auto;
- margin-right:auto;
+ position : relative;/**/
+ display: table;/**/
+ width: auto;/**/
+ height: auto;/**/
+ background: #ccc;/*to make the background of the table to #ccc*/
+ margin-left:auto;/*to centre the container of tables*/
+ margin-right:auto;/*to centre the container of tables*/
+ margin-top:0px;/*to remove the default top margin*/
 }
 table {
- border-collapse: separate;
- border-spacing: 10px;
+ border-collapse: separate;/*to separate table cells*/
+ border-spacing: 10px;/*to separate table cells by 10px*/
 }
 table{
-    font-size:19px;
+    font-size:20px;/*to increase the font size of the table text to 20px*/
 }
 th{
-    font-size:20px;
+    font-size:20px;/*to increase the font size of the table header to 20px*/
 }
 ul{
-    list-style-type:none;
+    list-style-type:none;/*to remove the default list styles from my unordered list*/
+}
+ul{
+    display:inline;
 }
 caption{
-    font-size:30px;
+    font-size:30px;/*to create a 30px caption at the top of the table*/
 }
 section.movie-info{
-    margin:10px;/*to separate */
+    margin:0px;/*to create a 0px space between the edge of the screen and the border*/
     padding:10px;/*to separate the text from the border by 10px*/
-    border:20px solid beige;/**/
+    border:20px solid beige;/*to create a  solid beige border of 20px around the section*/
 }
 ul.contact-list{
-    margin:30px;/**/
-    padding:10px;/**/
-    border:30px solid red;/**/
+    margin:30px;/*to create a margin of 30px from the edge of the viewport to the border*/
+    padding:10px;/*to create a padding of 10px from the text to the border*/
+    border:30px solid red;/*to create a red solid border of 30px around my contact-list*/
 }
 .standings-table{
-    margin:30px;/**/
-    padding:10px;/**/
-    border:30px ridge purple;/**/
+    margin:30px;/*to create a 30px space between the edge of the screen and the border*/
+    padding:10px;/*to create a 10px space between the text and the table border*/
+    border:30px ridge purple;/*to create a 30px purple ridged border around the table*/
 }
 .top_four{
-    border-left:6px solid green;
+    border-left:6px solid green;/*to create a 6px solid green left border on top 4 teams to make them more conspicuous*/
 }
 .europa{
-    border-left:6px solid fuchsia;
+    border-left:6px solid fuchsia;/*to create a 6px solid fushsia left border on position 5 and 6 teams to make them more conspicuous*/
 }
 .conference_league{
-    border-left:6px solid navy;
+    border-left:6px solid navy;/*to create a 6px solid navy left border on position 7 team to make it more conspicuous*/
 }
 .relegation{
-    border-left:6px solid teal;
+    border-left:6px solid teal;/*to create a 6px solid teal left border on bottom 3 teams to make them more conspicuous*/
 }
 td{
-    border-bottom:2px solid olive;
+    border-bottom:2px solid olive;/*to separate the rows using a 2px solid olive bottom border to make them more conspicuous*/
 }
