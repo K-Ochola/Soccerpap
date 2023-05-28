@@ -76,12 +76,18 @@ td{
     display:inline-block;
     background-color:brown;
     height:250px;
-    width:680px;
+    width:50%;
+    float:right;
 }
 .contacts_page3{
     display:inline-block;
     background-color:brown;
     height:250px;
-    width:680px;
+    width:50%;
     float:right;
+}
+.contact_paragraph{
+    text-align:center;
+    font-size:40px;
+    
 }
