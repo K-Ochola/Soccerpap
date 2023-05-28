@@ -67,3 +67,21 @@ ul.contact-list{
 td{
     border-bottom:2px solid olive;/*to separate the rows using a 2px solid olive bottom border to make them more conspicuous*/
 }
+.contacts_page{
+    display:block;
+    background-color:fuchsia;
+    height:250px;
+}
+.contacts_page2{
+    display:inline-block;
+    background-color:brown;
+    height:250px;
+    width:680px;
+}
+.contacts_page3{
+    display:inline-block;
+    background-color:brown;
+    height:250px;
+    width:680px;
+    float:right;
+}
